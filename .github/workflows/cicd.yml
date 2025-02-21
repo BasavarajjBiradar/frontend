@@ -3,7 +3,7 @@ name: Deploy frontend
 on:
   push:
     branches:
-      - master (Branch where this repository is pushed previously)
+      - branch
 
 jobs:
   build:
